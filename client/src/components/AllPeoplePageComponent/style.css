@@ -1,0 +1,17 @@
+.da{
+    position: fixed;
+}
+#marketplaceSearch{
+    width: 87%;
+    margin-left: 3%;
+
+    padding: 8px 10px;
+    border: none;
+    background-color: rgba(199, 204, 208, 0.585);
+    border-radius: 20px;
+}
+@media screen and (max-width:700px) {
+    .da{
+     display: none;
+    }
+}

@@ -1,0 +1,18 @@
+.single{
+  width: 98%;
+  margin-left: 1%;
+  border-radius: 10px;
+  padding: 8px;  
+}
+.single:hover{
+    background-color: rgb(207, 217, 226);
+}
+.mee{
+    display: none;
+}
+.single:hover > .mee{
+    display: auto;
+}
+.single .mee::after{
+    border-color: red;
+} 
